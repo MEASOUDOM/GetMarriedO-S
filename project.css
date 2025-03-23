@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(202, 199, 191);
+    gap: 2%;
+}
+.box1{
+    width: 48%;
+    height: 95%;
+    background-color: aqua;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 4px 4px 0 0;
+}
+.box1 .box-img{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-color: brown;
+    border-radius: 4px 4px 0 0;
+}
+.box1 .box-img img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 4px 4px 0 0; 
+}
+.box1 .box-tital{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.box1 .box-tital h2{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+.box1 .box-tital p{
+    font-size: 18px;
+    color: rgb(84, 84, 82);
+    text-align: center;
+    margin-top: 18px;
+}
+.box1 .box-tital button{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    color: rgb(0, 109, 128);
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 109, 128);
+    margin-left: 16px;
+}
+.box2{
+    width: 48%;
+    height: 95%;
+    background-color: aquamarine;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 4px 4px 0 0;
+}
+.box2 .box-img{
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+    border-radius: 4px 4px 0 0;
+}
+.box2 .box-tital{
+    width: 100%;
+    height: 50%;
+    inset: 0;
+    position: relative;
+    background-color: white;
+}
+.box2 .box-img img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 4px 4px 0 0 ;
+}
+
+.box2 .box-tital h2{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+span{
+    font-size: 18px;
+    color:rgb(78, 76, 73);
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.box2 .box-tital button{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    color: rgb(0, 109, 128);
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 109, 128);
+    margin-left: 16px;
+}
+.box2 .box-img .dola{
+    width: 70px;
+    position: absolute;
+    top: 34px;
+    right: 28%;
+    border-radius: 0 4px 0 0 ;
+    height: 35px;
+    background-color: rgb(33, 106, 145);
+}
+.box2 .box-img .dola p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.box1 .box-img .dola{
+    width: 70px;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 4px 0 0 ;
+    height: 35px;
+    background-color: rgb(33, 106, 145);
+}
+.box1 .box-img .dola p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

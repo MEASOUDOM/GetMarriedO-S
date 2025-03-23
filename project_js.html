@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 bg-secondary mt-2 p-3">
+                <label for="" class="form-label">Input Number Array</label>
+                <input type="text" id="txt1" class="form-control ">
+                <label for="" class="form-label">Input Min Random</label>
+                <input type="text" id="txt2" class="form-control ">
+                <label for="" class="form-label">Input Max Random</label>
+                <input type="text" id="txt3" class="form-control ">
+                <button class="btn btn-success mt-2" id="btn_add" style="width: 90px; background: none; border: 2px solid blue;" >Add</button>
+                <button class="btn btn-success mt-2" id="btn_up" style="width: 90px; background: none; border: 2px solid blue;">Veiw</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 ">
+        <div class="row">
+            <div class="col-xl-9">
+                <table class="table table-striped table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>Idex</th>
+                            <th>Code</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbl">
+                        <!-- <tr>
+                            <td>10111</td>
+                            <td>caca</td>
+                        </tr> -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"align="right">total</td>
+                            <td>100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    Item=[]
+        var code=document.getElementById("txt1");
+        var Name=Document.getElementById("txt2");
+        var price=document.getElementById("txt3");
+        var total=document.getElementById("total");
+        var btn=`<button class="btn btn-success mt-2" id="btn_add">Add</button>  
+                <button class="btn btn-success mt-2" id="btn_up" style="display: none;">update</button>" >   `                       
+        AutoID();
+        getItem();
+    function getItem(){
+        var data=""
+        for (const i in Item) {
+        data+=`
+        <tr>
+            <td>${Item[i].id}</td>
+            <td>${Item[i].Name}</td>
+            <th>${Item[i].Price}</th>
+        </tr>
+        `
+    }
+    document.getElementById("tbl").innerHTML=data;
+    }
+    document.getElementById("btn_add").addEventListener("click",function(){
+        alert()
+        })
+    
+</script>
+</html>

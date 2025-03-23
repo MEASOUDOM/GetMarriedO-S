@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.continaer{
+    background-size: cover;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0,0.5)50%,rgb(0, 0, 0,0.5)50%), url(./img2-projecct.jpg);
+    background-position: center;
+    height: 109vh;
+}
+.navbar{
+    width: 1200vh;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.Menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.Menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu ul li{
+    list-style: none;
+    margin: 27px 0 0 62px;
+    font-size: 18px;
+}
+.Menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search .srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.search .btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -1px;
+    right: 4px;
+    border-radius: 0 5px 5px 0 ;
+}
+/* .search .btn:focus{
+    outline: none;
+}
+.search .srch:focus{
+    outline: none;
+} */
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .paragraph{
+    padding: 0 20px 25px 0;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding: 0 20px 0 0 ;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content span{
+    color: orangered;
+}
+.content button{
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    border: none; 
+    background-color: orangered;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgb(0, 0, 0,0.5)50%,rgb(0, 0, 0,0.5)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid orangered none none none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.form button{
+    width: 250px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color: orangered;
+    position: relative;
+    left: 80px;
+    top: 8px;
+}
+.form .log{
+    padding: 15px 0 10px 0;
+    text-align: center;
+
+}
+.icon a{
+    color: white;
+    margin: 10px 20px 30px -12px ;
+}
